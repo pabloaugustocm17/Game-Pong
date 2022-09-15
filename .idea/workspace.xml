@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98144e7e-beeb-4dd9-a544-9414414d1eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pong/src/Main.java" afterDir="false" />
+    <list default="true" id="98144e7e-beeb-4dd9-a544-9414414d1eee" name="Changes" comment="ADD Main">
+      <change afterPath="$PROJECT_DIR$/pong/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pong/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/pong/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +75,16 @@
       <updated>1663261814350</updated>
       <workItem from="1663261815706" duration="469000" />
       <workItem from="1663262299650" duration="47000" />
-      <workItem from="1663262357385" duration="1395000" />
+      <workItem from="1663262357385" duration="2044000" />
     </task>
+    <task id="LOCAL-00001" summary="ADD Main">
+      <created>1663263804674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663263804674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ADD Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Main" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
