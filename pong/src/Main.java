@@ -15,10 +15,13 @@ public class Main extends Canvas implements Runnable, KeyListener {
 
     public Player player ;
 
+    public Enemy enemy;
+
     public Main(){
         this.setPreferredSize(new Dimension(WIDTH * SCALE, HEIGHT * SCALE));
         this.addKeyListener(this);
         this.player = new Player(100, HEIGHT-5);
+        this.enemy = new Enemy();
     }
 
     public static void main(String[] args) {
@@ -92,7 +95,6 @@ public class Main extends Canvas implements Runnable, KeyListener {
 
 
     }
-
 
     /* Implements */
 
