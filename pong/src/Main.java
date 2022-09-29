@@ -7,21 +7,24 @@ import java.awt.image.BufferedImage;
 
 public class Main extends Canvas implements Runnable, KeyListener {
 
-    public static final int WIDTH = 240;
+    public static final int WIDTH = 160;
     public static final int HEIGHT = 120 ;
     public static final int SCALE = 3;
 
     public BufferedImage layer = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 
-    public Player player ;
+    public static Player player ;
 
-    public Enemy enemy;
+    public static Enemy enemy;
+
+    public static Ball ball;
 
     public Main(){
         this.setPreferredSize(new Dimension(WIDTH * SCALE, HEIGHT * SCALE));
         this.addKeyListener(this);
-        this.player = new Player(100, HEIGHT-5);
-        this.enemy = new Enemy();
+        player = new Player(100, HEIGHT-5);
+        enemy = new Enemy(100,5 );
+        ball = new Ball(100, HEIGHT/2 - 1);
     }
 
     public static void main(String[] args) {
@@ -43,6 +46,8 @@ public class Main extends Canvas implements Runnable, KeyListener {
     public void Tick(){
 
         player.Tick();
+        enemy.Tick();
+        ball.Tick();
 
     }
 
@@ -63,6 +68,8 @@ public class Main extends Canvas implements Runnable, KeyListener {
         g.fillRect(0,0, WIDTH, HEIGHT);
 
         player.Render(g);
+        enemy.Render(g);
+        ball.Render(g);
 
         g = bs.getDrawGraphics();
         g.drawImage(layer, 0, 0, WIDTH*SCALE, HEIGHT*SCALE, null);

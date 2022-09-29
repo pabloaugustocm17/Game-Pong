@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98144e7e-beeb-4dd9-a544-9414414d1eee" name="Changes" comment="UPDATE Main/Player">
-      <change afterPath="$PROJECT_DIR$/pong/src/Enemy.java" afterDir="false" />
+    <list default="true" id="98144e7e-beeb-4dd9-a544-9414414d1eee" name="Changes" comment="UPDATE">
+      <change afterPath="$PROJECT_DIR$/pong/src/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/pong/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pong/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pong/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/pong/src/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pong/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/pong/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pong/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/pong/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,11 @@
       <workItem from="1663262357385" duration="2073000" />
       <workItem from="1663330238743" duration="2701000" />
       <workItem from="1663332964018" duration="157000" />
-      <workItem from="1663333835960" duration="771000" />
+      <workItem from="1663333835960" duration="1070000" />
+      <workItem from="1663696073128" duration="1229000" />
+      <workItem from="1663700018526" duration="22000" />
+      <workItem from="1664454935511" duration="2710000" />
+      <workItem from="1664458150384" duration="872000" />
     </task>
     <task id="LOCAL-00001" summary="ADD Main">
       <created>1663263804674</created>
@@ -105,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663333033245</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UPDATE">
+      <created>1663347421905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663347421905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +140,8 @@
     <MESSAGE value="ADD Main" />
     <MESSAGE value="UPDATE Main" />
     <MESSAGE value="UPDATE Main/Player" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE Main/Player" />
+    <MESSAGE value="UPDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

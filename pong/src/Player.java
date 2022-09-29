@@ -4,13 +4,9 @@ public class Player {
 
     public boolean right;
     public boolean left;
-
     public int width;
-
     public int height;
-
     public int x;
-
     public int y;
 
     Player(int x, int y){
